@@ -1,0 +1,26 @@
+
+header {
+	width: 960px;
+	height:300px;
+	margin: 20px auto;
+	background-color:  #aaa;
+}
+#wrapper {
+	width: 960px;
+	height:2000px;
+	margin: 0px auto;
+	background-color:  #bbb;
+}
+
+ul {
+	margin:0;
+	width:100%;
+	background:#ccc;
+	text-align:center;
+}
+
+ul li {
+	display:inline;
+	line-height:50px;
+	margin:0 50px;
+}

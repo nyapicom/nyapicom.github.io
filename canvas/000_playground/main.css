@@ -1,0 +1,21 @@
+body{
+	background-color:#e7e7e7;
+}
+#canvas{
+	position: absolute;
+	top:20px;
+	left:50%;
+	margin-left: -320px;
+	border: 3px solid #000;
+}
+#comment{
+	position: absolute;
+	top:500px;
+	width:600px;
+	padding:20px;
+	left:50%;
+	margin-left:-320px;
+	margin-top: 20px;
+	background-color:#ffffff;
+	border: 3px solid #999;
+}

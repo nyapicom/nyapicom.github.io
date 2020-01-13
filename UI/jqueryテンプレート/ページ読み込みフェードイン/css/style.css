@@ -1,0 +1,11 @@
+@charset "utf-8";
+body{display:none;}
+
+p{
+	width:960px;
+	height:300px;
+	margin:40px auto;
+	background:#ddd;
+	line-height:100px;
+	text-align:center;
+	}

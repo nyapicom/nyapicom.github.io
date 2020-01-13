@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+.btn {
+	background:transparent url(../img/btn.png) no-repeat 0 0;
+	display: block;
+	width:35px;
+	height: 35px;
+	position:  fixed;
+	top:20px;
+	right:20px;
+	cursor: pointer;
+	z-index: 200;
+}
+
+.peke { background-position: -35px 0; }
+
+.drawr {
+	display: none;
+	background-color:rgba(0,0,0,0.9);
+	position: fixed;
+	top: 0px;
+	right:0;
+	width:260px;
+	padding:60px 0 20px 20px;
+	z-index: 100;
+}
+
+#menu { position:fixed; }
+
+#menu li { width:260px; }
+
+#menu li a {
+	color:#fff;
+	display: block;
+	padding: 15px;
+}
+
+#wrap {
+	width:960px;
+	height:2000px;
+	background-color:#ccc;
+	margin:0 auto;
+}

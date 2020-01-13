@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>トップ固定メニュー</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header> </header>
+<ul data-0="position:static;" data-top-top="position:fixed;top:0;" data-edge-strategy="set">
+  <li><a href="#">menu01</a></li>
+  <li><a href="#">menu02</a></li>
+  <li><a href="#">menu03</a></li>
+  <li><a href="#">menu04</a></li>
+</ul>
+<div id="wrapper"> </div>
+<script type="text/javascript" src="js/skrollr.min.js"></script> 
+<script type="text/javascript">
+	window.onload = function() {
+		skrollr.init({
+			forceHeight: false
+		});
+	}
+</script>
+</body>
+</html>

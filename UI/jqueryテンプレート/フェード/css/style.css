@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+div {
+	width: 960px;
+	margin:100px auto;
+}
+
+
+div #slide {
+	position:relative;
+}
+

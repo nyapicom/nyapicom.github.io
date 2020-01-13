@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="ja-JP">
+<head>
+	<meta charset="UTF-8">
+	<title>他世界連結ゲーム</title>
+	<link rel="stylesheet" type="text/css" media="screen,print" href="main.css">
+	<script type="text/javascript" src="jquery-1.12.0.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body onclick="my_shoot()" onkeydown="keyDown(event)" onkeyup="keyUp(event)" onmousemove="mouseMove(event)">
+	<canvas id="canvas" width="640" height="480"></canvas>
+	<div id="login_form">
+		<input type="text" id="login_ID" value="ID"></input><br>
+		<input type="text" id="login_password" value="password"></input><br>
+		<div id='login_button' class='button'>Login</div>
+	</div>
+	<div id="skill_editor">
+		コマンドを登録して，ショートカットできる。（座標移動など）
+	</div>
+	<div id="chat_form">
+		<div id="chat_show"></div>
+		<input type="text" id="chat_text" value="your comment" onkeypress="submit_comment(event.keyCode);"></input>
+	</div>
+</body>
+</html>

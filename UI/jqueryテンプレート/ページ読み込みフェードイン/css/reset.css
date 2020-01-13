@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,textarea,p,th,td,select,header,nav,section,footer {
+	margin: 0;
+	padding: 0;
+	color: #333;
+	line-height: 1.6;
+	word-wrap: break-word;
+}
+
+address,em,i {
+	font-style: normal;
+}
+strong,th,b {
+	font-weight: normal;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+hr {
+	display: none;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+}
+img {
+	border: 0;
+}
+li {
+	list-style-type: none;
+
+}
+small{
+	font-size: 100%;
+}
+a{
+	text-decoration:none;
+	}
+/*----------------- font -------------------*/
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+body {
+	font-size: 100%; /* IE */
+	font-family: "Noto Sans Japanese","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",sans-serif;
+}
+html>/**/body {
+font-size: 16px; /* Except IE */
+}
+
+body {
+	-webkit-text-size-adjust: 100%;
+}
